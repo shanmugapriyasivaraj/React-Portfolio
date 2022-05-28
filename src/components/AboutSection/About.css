@@ -25,6 +25,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   #about h1 {
     font-size: 40px;
   }
@@ -33,6 +34,10 @@
   #about {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .aboutImg .image {
+    height: 15rem;
+    width: 12rem;
   }
 }
 
