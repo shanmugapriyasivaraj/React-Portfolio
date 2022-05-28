@@ -42,7 +42,7 @@ function Skills() {
             />
           </div>
           <div className="skillName">
-            <p>NextJs</p>
+            <p>Next Js</p>
             <ProgressBar
               completed={55}
               bgColor="#01bf71"
