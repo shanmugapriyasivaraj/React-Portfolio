@@ -19,17 +19,7 @@ function Skills() {
               labelColor="#ffffff"
             />
           </div>
-          <div className="skillName">
-            <p>Node</p>
-            <ProgressBar
-              completed={80}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
+
           <div className="skillName">
             <p>Tailwind CSS</p>
             <ProgressBar
@@ -45,6 +35,17 @@ function Skills() {
             <p>Next Js</p>
             <ProgressBar
               completed={55}
+              bgColor="#01bf71"
+              height="15px"
+              isLabelVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
+          <div className="skillName">
+            <p>Material UI</p>
+            <ProgressBar
+              completed={70}
               bgColor="#01bf71"
               height="15px"
               isLabelVisible={true}
