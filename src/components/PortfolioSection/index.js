@@ -205,7 +205,8 @@ function Portfolio() {
                   <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
-                    rel="https://grand-cupcake-e63950.netlify.app/"
+                    rel="noreferrer"
+                    href="https://grand-cupcake-e63950.netlify.app/"
                   >
                     Website <i className="fad fa-link"></i>
                   </a>
@@ -272,7 +273,7 @@ function Portfolio() {
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://unique-kangaroo-281962.netlify.app/s"
+                    href="https://unique-kangaroo-281962.netlify.app/"
                   >
                     Website <i className="fad fa-link"></i>
                   </a>
