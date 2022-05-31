@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import resume from "../../Images/Resume.pdf";
 import Me from "../../Images/profile.jpg";
 import { InfoContainer } from "./AboutElements";
 function About() {
@@ -27,8 +28,7 @@ function About() {
             <a
               className="btn btn-sm btn-success mt-3"
               rel="noreferrer"
-              // href={resume}
-              // href="https://drive.google.com/file/d/1JgHdSei8HoKBn3oX-VcldSqTc-fZ7hgm/view?usp=sharing"
+              href={resume}
               target="_blank"
               download
             >
