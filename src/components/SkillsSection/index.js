@@ -8,7 +8,7 @@ import {
   SkillsCard,
   SkillsCardContainer,
 } from "./SkillsElements";
-import { HomeH1, HomeP1 } from "../HomeSection/HomeElements";
+// import { HomeH1, HomeP1 } from "../HomeSection/HomeElements";
 function Skills() {
   return (
     <div className="skillsWrapper" id="skills">

@@ -30,7 +30,7 @@ function Navbar({ toggle }) {
                 Home
               </NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks
                 to="about"
                 spy={true}
@@ -40,7 +40,7 @@ function Navbar({ toggle }) {
               >
                 About
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLinks
                 to="skills"

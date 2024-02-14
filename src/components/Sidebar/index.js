@@ -18,8 +18,14 @@ function Sidebar({ isOpen, toggle }) {
           <SidebarLink to="" onClick={toggle}>
             Home
           </SidebarLink>
-          <SidebarLink to="" onClick={toggle}>
-            About
+          <SidebarLink to="skills" onClick={toggle}>
+            Skills
+          </SidebarLink>
+          <SidebarLink to="portfolio" onClick={toggle}>
+            Portfolio
+          </SidebarLink>
+          <SidebarLink to="contact" onClick={toggle}>
+            Contact
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
