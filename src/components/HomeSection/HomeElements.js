@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-  background: #0f172a;
+  background: #fff;
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -42,7 +42,7 @@ export const VideoBg = styled.video`
   height: 100vh /* calc(100vh- 70px) */;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
+  background: #fff;
 `;
 export const HomeContent = styled.div`
   z-index: 3;
@@ -86,7 +86,7 @@ export const HomeP = styled.p`
 `;
 export const HomeP1 = styled.p`
   margin-top: 20px;
-  color: #dcdcdc;
+  color: #fff;
   font-family: DM Sans;s
   font-size: 16px;
   line-height: 1.8;
