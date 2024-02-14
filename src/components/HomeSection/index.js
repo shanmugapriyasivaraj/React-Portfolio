@@ -36,14 +36,14 @@ function HeroSection() {
             <i className="fab fa-github"></i>
           </a>
           &emsp;
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/shanmugapriya-s-b6486523a/"
             target="_blank"
             rel="noreferrer"
             className="btn btn-sm btn-success btn-circle"
           >
             <i className="fab fa-linkedin"></i>
-          </a>
+          </a> */}
           &emsp;
         </span>
       </HomeContent>
