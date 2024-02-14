@@ -24,9 +24,9 @@
 }
 
 .card {
-  width: 22rem /* 32rem - small card edit */;
+  width: 20rem /* 32rem - small card edit */;
   position: relative;
-  height: 25rem;
+  height: 20rem;
   margin-bottom: 2rem;
 }
 

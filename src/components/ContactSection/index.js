@@ -39,17 +39,17 @@ function Contact() {
             <i className="fab fa-github"></i>
           </a>
           &emsp;
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/shanmugapriya-s-b6486523a/"
             target="_blank"
             rel="noreferrer"
             className="btn btn-sm btn-success btn-circle"
           >
             <i className="fab fa-linkedin"></i>
-          </a>
+          </a> */}
           &emsp;
         </span>
-        <span>Copyright © 2022. </span>&emsp;{" "}
+        <span>Copyright © 2024. </span>&emsp;{" "}
         <span> All Rights Reserved by Shanmugapriya S </span>
       </div>
     </div>

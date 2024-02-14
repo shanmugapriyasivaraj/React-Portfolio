@@ -1,106 +1,31 @@
 import React from "react";
 import "./Skills.css";
+import skillItem from "../data/skills";
 // import { SkillsContainer } from "./SkillsElements";
-import ProgressBar from "@ramonak/react-progress-bar";
+// import ProgressBar from "@ramonak/react-progress-bar";
+import {
+  IconContainer,
+  SkillsCard,
+  SkillsCardContainer,
+} from "./SkillsElements";
+import { HomeH1, HomeP1 } from "../HomeSection/HomeElements";
 function Skills() {
   return (
     <div className="skillsWrapper" id="skills">
-      <h1 className="logo-text text-center py-md-5 py-xs-5">Skills</h1>
-      <div className="row">
-        <div className="col-md-6 col-sm-12" data-aos="flip-left">
-          <div className="skillName">
-            <p>React</p>
-            <ProgressBar
-              completed={85}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-
-          <div className="skillName">
-            <p>Tailwind CSS</p>
-            <ProgressBar
-              completed={75}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>Next Js</p>
-            <ProgressBar
-              completed={55}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>Material UI</p>
-            <ProgressBar
-              completed={70}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-        </div>
-        <div className="col-md-6 col-sm-12" data-aos="flip-right">
-          <div className="skillName">
-            <p>Git</p>
-            <ProgressBar
-              completed={70}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>JavaScript</p>
-            <ProgressBar
-              completed={90}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>HTML</p>
-            <ProgressBar
-              completed={80}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>CSS</p>
-            <ProgressBar
-              completed={80}
-              bgColor="#01bf71"
-              height="15px"
-              isLabelVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-        </div>
+      <div>
+        <h1 className="logo-text text-center py-md-5 py-xs-5">Skills</h1>
       </div>
+      <SkillsCardContainer>
+        {skillItem.map((e) => {
+          return (
+            <SkillsCard>
+              <IconContainer color="blue" size="4.5rem">
+                {e.icon}
+              </IconContainer>
+            </SkillsCard>
+          );
+        })}
+      </SkillsCardContainer>
     </div>
   );
 }
