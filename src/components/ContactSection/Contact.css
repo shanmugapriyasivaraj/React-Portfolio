@@ -1,5 +1,5 @@
 #contact {
-  background-color: #0c0c0c;
+  background-color: #000;
   width: 100%;
   height: calc(100vh - 48px) /* 100vh 72px*/;
   box-sizing: border-box;
@@ -22,7 +22,6 @@
 
 .contacts:hover {
   background-color: honeydew;
-  color: rgb(223, 48, 156);
 }
 .contacts {
   width: 18rem;

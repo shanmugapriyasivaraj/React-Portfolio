@@ -21,10 +21,8 @@ function HeroSection() {
         <HomeH1>Shanmugapriya S</HomeH1>
         <HomeP>
           I'm a passionate{" "}
-          <span style={{ borderBottom: "3px solid green" }}>
-            Frontend Developer
-          </span>{" "}
-          from India
+          <span style={{ fontWeight: "bolder" }}>Frontend Developer</span> from
+          India
         </HomeP>
         <span className="float-left">
           <a
@@ -36,14 +34,14 @@ function HeroSection() {
             <i className="fab fa-github"></i>
           </a>
           &emsp;
-          {/* <a
-            href="https://www.linkedin.com/in/shanmugapriya-s-b6486523a/"
+          <a
+            href="mailto:priyasivaraj280302@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="btn btn-sm btn-success btn-circle"
           >
-            <i className="fab fa-linkedin"></i>
-          </a> */}
+            <i className="fad fa-envelope"></i>
+          </a>
           &emsp;
         </span>
       </HomeContent>
