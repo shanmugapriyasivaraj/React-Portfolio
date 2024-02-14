@@ -22,7 +22,7 @@ function Sidebar({ isOpen, toggle }) {
             Skills
           </SidebarLink>
           <SidebarLink to="portfolio" onClick={toggle}>
-            Portfolio
+            Projects
           </SidebarLink>
           <SidebarLink to="contact" onClick={toggle}>
             Contact

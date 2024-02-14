@@ -60,7 +60,7 @@ function Navbar({ toggle }) {
                 offset={-70}
                 duration={500}
               >
-                Portfolio
+                Projects
               </NavLinks>
             </NavItem>
             <NavItem>
