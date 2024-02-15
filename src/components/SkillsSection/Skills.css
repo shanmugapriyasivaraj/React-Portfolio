@@ -30,7 +30,7 @@
   }
   .skillsWrapper {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   #skills h1 {
     font-size: 40px;
@@ -39,7 +39,7 @@
 @media screen and (max-width: 768px) {
   .skillsWrapper {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -54,6 +54,6 @@
   }
   .skillsWrapper {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
